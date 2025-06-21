@@ -19,7 +19,6 @@ const Login = () => {
     ) {
       alert(`Welcome back, ${savedUser.name}!`);
       navigate('/quiz')
-      // You can navigate to dashboard or quiz page here
     } else {
       alert("Invalid email or password.");
     }
