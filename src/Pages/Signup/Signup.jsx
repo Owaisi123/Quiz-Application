@@ -26,7 +26,6 @@ const Signup = () => {
     alert("Signup successful!");
     navigate('/login')
 
-    // Clear form fields
     setUserName("");
     setUserEmail("");
     setUserPass("");
